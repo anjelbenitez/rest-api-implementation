@@ -1,0 +1,21 @@
+
+<div class="parent">
+
+    <div class="userInfo">
+
+        <img class="avatar" src="{{ avatar }}"/>
+        <h2>Welcome, {{ username }}!</h2>
+        <br><br>
+        <p id ="userId"><b>Your User ID: </b>{{ user_id }}</p>
+        <p id="JWT"><b>Your JWT:</b><br>{{ jwt }}</p>
+
+    </div>
+
+    <div class="logoutLink">
+        <a id="link" href="/logout">LOGOUT</a>
+    </div>
+    
+
+</div>
+
+<link rel="stylesheet" type="text/css" href="/static/style.css">
