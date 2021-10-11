@@ -1,0 +1,70 @@
+
+    .parent {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .title {
+        padding: 10px;
+        font-size: 30px;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -90%)
+    }
+
+    .userInfo {
+        font-size: 30px;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        border: none;
+        padding: 10px;
+        width: 90%;
+    }
+
+    #jwt {
+        overflow-wrap: break-word;
+    }
+
+    .link {
+        margin:0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, 400%);
+    }
+
+    .logoutLink {
+        margin:0;
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -250%);
+    }
+
+    #link {
+        font-family: sans-serif;
+        font-size: 14px;
+        color: white;
+        text-decoration: none;
+        padding: 16px 16px;
+        background-color: dodgerblue;
+        border: 1px;
+        border-radius: 3px;
+        outline:none;
+        cursor: pointer;
+    }
+    
+    #link:hover {
+        background-color:rgb(74, 163, 253);
+    }
